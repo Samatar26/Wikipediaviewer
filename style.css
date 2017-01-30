@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal|Dosis|Indie+Flower|Lato|Open+Sans|Overpass|PT+Sans|Raleway|Roboto');
+
+body {
+    background-color:rgb(219, 214, 209);
+}
+
+#wrapper {
+  margin: 3em auto;
+  width: 600px;
+
+}
+
+h1 {
+    font-family: "Dosis";
+    text-align: center;
+    font-size:3em;
+}
+
+#content {
+    font-family: "Lato";
+    margin-top: 10em;
+    width: 100%;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 3em;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+#random {
+    text-decoration: none;
+    color: black;
+}
+
+#random:hover {
+}
+
+#searchIcon {
+  height:3em;
+  width:3em;
+  display: block;
+  margin:  auto;
+  margin-top: -2em;
+  margin-bottom: 2em;
+
+}
