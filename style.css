@@ -14,12 +14,14 @@ h1 {
     font-family: "Dosis";
     text-align: center;
     font-size:3em;
+    transition: opacity 0.8s ease-in-out;
 }
 
 #content {
     font-family: "Lato";
     margin-top: 10em;
     width: 100%;
+    transition: all 0.8s ease-in-out;
 }
 
 p {
@@ -35,7 +37,9 @@ p {
 }
 
 #random:hover {
+
 }
+
 
 #searchIcon {
   height:3em;
@@ -44,5 +48,38 @@ p {
   margin:  auto;
   margin-top: -2em;
   margin-bottom: 2em;
+  cursor: pointer;
+  transition: opacity 0.5s ease-in-out;
 
+}
+#searchTextIcon{
+  transition: all 1s ease-in-out;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    transition: all 1.5s ease;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Open Sans";
+  font-size: 1.1em;
+  margin-left: 11.6em;
+  font-weight: bold;
+
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+a{
+  text-decoration: none;
+    color: rgb(93, 92, 92);
 }
