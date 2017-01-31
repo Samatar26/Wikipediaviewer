@@ -56,6 +56,8 @@ function changeSearch() {
 //    searchIcon.style.opacity=0;
     searchIcon.style.opacity=0;
     setTimeout(function(){
+      //For accessibility purposes you shouldn't use display: none
+//read up on http://alistapart.com/article/now-you-see-me
       searchIcon.style.position="absolute";
       searchIcon.style.top= "-9999px";
       searchIcon.style.left = "-9999px";
